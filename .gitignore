@@ -1,3 +1,16 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Data files (do not commit raw/processed outputs)
+data/raw/*.csv
+data/processed/*.csv
